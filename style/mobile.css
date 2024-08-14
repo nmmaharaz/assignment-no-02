@@ -130,3 +130,29 @@ nav > ul > li > a:hover, #nav-color > a{
         color: rgba(255, 255, 255, 0.542);
         font-size: 0.7rem;
 }
+
+/* SECTION ONE START HERE */
+
+
+
+.habit{
+        grid-template-columns: repeat(1, 1fr);
+}
+
+.gym-text-part{
+        margin-bottom: 30px;
+}
+
+.run-extra{
+        flex-direction: column;
+}
+
+.run-extra > div > button{
+      margin: 30px 0px;
+}
+
+#run{
+        display: flex;
+        flex-direction: column;
+
+}
