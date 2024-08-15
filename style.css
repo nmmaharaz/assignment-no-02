@@ -6,7 +6,7 @@
 *{
         margin: 0;
         padding: 0;
-        max-width: 1488px;
+        max-width: 1530px;
         box-sizing: border-box;
 }
 
@@ -413,7 +413,7 @@ nav > label > i{
 
 .age-calcu{
         background-color: rgb(34, 34, 34);
-        max-width: 1488px;
+        max-width: 1530px;
         margin-top: 88px;
 }
 
@@ -576,7 +576,7 @@ th, tr{
 /* FOOTER SECTION START */
 
 footer{
-        max-width: 1488px;
+        max-width: 1530px;
         background-color: rgb(34, 34, 34);
         margin-top: 80px;
 }
