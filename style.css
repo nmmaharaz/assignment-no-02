@@ -44,6 +44,8 @@ body{
         font-family: "Inter", sans-serif;
 }
 
+/* HEADING PART START */
+
 header{
         background-image: linear-gradient(rgb(45, 44, 44), black);
 }
@@ -102,8 +104,8 @@ nav > label > i{
         font-size: 1.2rem;
 }
 
+/* SECTION ONE START */
 
-/* main area start here */
 .main-area{
         justify-content: space-between;
 }
@@ -124,7 +126,7 @@ nav > label > i{
 }
 
 #hero-area > h1 > span{
-        font-family:miama ;
+        font-family: miama;
         font-size: 10.8rem;
         font-style: normal;
         font-weight: 300;
@@ -167,7 +169,7 @@ nav > label > i{
         border: 0.5px solid gray;
         text-align: center;
         width: 193px;
-        height: 96px;
+        height: 110px;
         border-radius: 10px;
         top: -462px;
         right: -80px;
@@ -226,7 +228,7 @@ nav > label > i{
         padding-bottom: 10px;
 }
 
-/* main section one start here */
+/* SECTION TWO START */
 
 .habit{
         display: grid;
@@ -255,7 +257,7 @@ nav > label > i{
         line-height: 20px;
 }
 
-/* main section two start here */
+/* SECTION THREE START */
 
 
 .run-extra{
@@ -294,13 +296,120 @@ nav > label > i{
 #run-div > img{
         height: 100%;
         width: 100%;
+        transform: scale(3);
+        transform-origin: 70% 30%;
 }
+
+/* SECTION FOUR START */
+
+#main-all-package{
+        margin-top: 80px;
+}
+
+#package{
+        max-width: 1140px;
+        margin: 0 auto;
+}
+
+#package-heading{
+        text-align: center;
+        margin-bottom: 40px;
+}
+
+#all-package{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(32, 32, 32);
+        padding: 40px;
+        border-radius: 15px;
+}
+
+.select-package{
+        width: 320px;
+        background-color: rgba(20, 119, 240, 0.984);
+        box-shadow: 4px 0px 20px black;
+        border-radius: 15px;
+        overflow: hidden;
+}
+
+.package-image{
+        width: 320px;
+        height: 260px;
+}
+
+.package-image > img{
+        width: 100%;
+        height: 100%;
+}
+
+.main-package{
+        padding: 10px 33px;
+}
+
+.main-package > h3{
+        font-size: 1.4rem;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+.main-package > ul > li{
+        list-style-type: disc;
+        color: rgb(218, 214, 214);
+        font-size: 1.2rem;
+        padding-bottom: 10px;
+        
+}
+
+.main-package > p{
+        font-size: 1.3rem;
+        color: rgb(218, 214, 214);
+        border-top: 1px dotted rgb(218, 214, 214);
+        border-bottom: 1px dotted rgb(218, 214, 214);
+        text-align: center;
+        padding: 6px 0px;
+        margin-top: 15px;
+}
+
+.main-package > div{
+        text-align: center;
+        margin-top: 15px;
+}
+
+.main-package > div > button{
+        font-size: 1.3rem;
+        color: white;
+        background-color:orangered;
+        padding: 6px 18px;
+        border-radius: 6px;
+        border: 1px solid brown;
+        
+        
+}
+
+.main-package > div > button:hover{
+        background-color: white;
+        color: orangered;
+        box-shadow: 2px 4px 10px  rgb(31, 30, 30);
+}
+
+.main-package > .outline{
+        text-align: center;
+        padding-bottom: 10px;
+}
+
+.main-package > .outline > a{
+        color: rgb(182, 206, 240);
+        text-align: center;
+}
+
+/* SECTION FIVE START */
 
 .bmi-c{
         margin: 80px auto 0;
         max-width: 650px;
 }
-
 
 .age-calcu{
         background-color: rgb(34, 34, 34);
@@ -314,9 +423,7 @@ nav > label > i{
         max-width: 1140px;
         margin: 0px auto 0px;
         padding: 52px 0px;
-
 }
-
 
 #calculator{
         max-width: 1140px;
@@ -419,6 +526,7 @@ th, tr{
         cursor: pointer;
 }
 
+/* SECTION SIX START */
 
 #meet-our-team{
         text-align: center;
@@ -458,11 +566,14 @@ th, tr{
 .team-meat > div > h3{
         font-size: 1.4rem;
         color: white;
+        padding-bottom: 5px;
 }
 .team-meat > div > p{
         font-size: 1.1rem;
         color: rgb(194, 191, 191);
 }
+
+/* FOOTER SECTION START */
 
 footer{
         max-width: 1488px;

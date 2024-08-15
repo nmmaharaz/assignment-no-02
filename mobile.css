@@ -1,6 +1,13 @@
 *{
         max-width: 570px;
 }
+
+.heading-part > h2{
+        font-size: 2rem;
+}
+
+/* HEADER PART START */
+
 header{
         padding: 0px 20px;
 }
@@ -55,8 +62,7 @@ nav > ul > li > a:hover, #nav-color > a{
         color: orangered;
 }
 
-
-
+/* HERO AREA START */
 
 .main-area{
         flex-direction: column;
@@ -97,11 +103,18 @@ nav > ul > li > a:hover, #nav-color > a{
         background-image: linear-gradient(to right, rgba(128, 128, 128, 0.778), rgba(128, 128, 128, 0.066));
         text-align: center;
         padding: 10px;
-        width: 193px;
-        height: 98px;
+        width: 175px;
+        height: 88px;
         border-radius: 10px;
         top: -545px;
-        right: -40px;
+        right: -30px;
+}
+
+#five h2{
+        font-size: 2rem;
+        font-weight: 900;
+        color: white;
+        padding: 0;
 }
 
 .three{
@@ -109,9 +122,7 @@ nav > ul > li > a:hover, #nav-color > a{
         right: 170px;
 }
 
-/* main section start here */
-
-
+/* SECTION ONE START */
 
 .habit{
         grid-template-columns: repeat(1, 1fr);
@@ -126,7 +137,7 @@ nav > ul > li > a:hover, #nav-color > a{
      margin-bottom: 30px;
 }
 
-/* section two */
+/* SECTION TWO START */
 
 #run{
         flex-direction: column;
@@ -147,6 +158,21 @@ header{
         margin: 0 auto;
 }
 
+/* SECTION FOUR START */
+
+#all-package{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+}
+
+.select-package{
+        margin-bottom: 30px;
+}
+
+/* SECTION FIVE START */
+
 .bmi-c{
         padding: 0px 20px;
 }
@@ -156,23 +182,13 @@ header{
         padding: 52px 40px;
 }
 
-.our-team{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
-        padding: 20px;
-}
-.team-meat{
-        height: 100%;
-}
-
 
 .bmi{
    margin-top: 42px;
 }
 
 .bmi input{
-        width: 160px;
+        max-width: 150px;
         font-size: 1rem;
         color: rgb(173, 170, 170);
         padding: 20px;
@@ -183,7 +199,7 @@ header{
 }
 
 #gender{
-        width: 160px;
+        max-width: 150px;
         font-size: 1rem;
         color: rgb(173, 170, 170);
         padding: 20px;
@@ -193,9 +209,8 @@ header{
         border-radius: 10px;
 }
 
-
 .factor{
-        width: 335px;
+        width: 315px;
         font-size: 1rem;
         color: rgb(173, 170, 170);
         padding: 20px;
@@ -204,9 +219,24 @@ header{
         border-radius: 10px;
 }
 
+ /* SECTION SIX START */
+
+.our-team{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px;
+}
+.team-meat{
+        height: 272px;
+        width: 100%;
+}
+
 #team{
         margin: 50px 20px;
 }
+
+/* FOOTER PART START */
 
 footer{
         max-width: 570px;
