@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -50,9 +50,7 @@ header{
 
 #main-header{
         max-width: 1140px;
-        height: 100vh;
         margin: 0 auto;
-        
 }
 .tittle{
         justify-content: space-between;
@@ -122,10 +120,14 @@ nav > label > i{
         font-weight: 800px;
         margin-bottom: 1.2rem;
         padding-top: 60px;
+        line-height: 110px;
 }
 
 #hero-area > h1 > span{
-        font-family: "Dancing Script", cursive;
+        font-family:miama ;
+        font-size: 10.8rem;
+        font-style: normal;
+        font-weight: 300;
 }
 
 #hero-area > #des{
@@ -271,6 +273,7 @@ nav > label > i{
         background-color: orangered;
         border-radius: 30px;
         cursor: pointer;
+        margin-top: 20px;
 }
 
 #run{
@@ -436,6 +439,7 @@ th, tr{
 }
 
 .team-meat{
+        position: relative;
         height: 272px;
 }
 
@@ -445,6 +449,20 @@ th, tr{
         border-radius: 20px;
 }
 
+.team-meat > div{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+}
+
+.team-meat > div > h3{
+        font-size: 1.4rem;
+        color: white;
+}
+.team-meat > div > p{
+        font-size: 1.1rem;
+        color: rgb(194, 191, 191);
+}
 
 footer{
         max-width: 1488px;
