@@ -1,5 +1,5 @@
 *{
-        max-width: 570px;
+        max-width: 576px;
 }
 
 .heading-part > h2{
@@ -179,6 +179,10 @@ header{
         padding: 0px 20px;
 }
 
+.age-calcu{
+        max-width: 576px;
+}
+
 #age-calculate{
         flex-direction: column;
         padding: 52px 40px;
@@ -241,13 +245,13 @@ header{
 /* FOOTER PART START */
 
 footer{
-        max-width: 570px;
+        max-width: 576px;
         background-color: rgb(34, 34, 34);
         margin-top: 80px;
 }
 
 .footer-part{
-        max-width: 570px;
+        max-width: 576px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -259,7 +263,7 @@ footer{
 
 .footer-link{
         flex-direction: column;
-        max-width: 380px;
+        max-width: 350px;
 }
 
 .footer-1st-link > h3{
