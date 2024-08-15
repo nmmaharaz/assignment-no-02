@@ -161,13 +161,13 @@ nav > label > i{
 
 #five{
         position: absolute;
-        background-image: linear-gradient(to right, rgba(128, 128, 128, 0.778), rgba(128, 128, 128, 0.066));
+        background-color: rgb(48, 48, 48, 1);
+        border: 0.5px solid gray;
         text-align: center;
-        padding: 10px;
         width: 193px;
-        height: 98px;
+        height: 96px;
         border-radius: 10px;
-        top: 90px;
+        top: -462px;
         right: -80px;
 }
 
@@ -175,11 +175,13 @@ nav > label > i{
         font-size: 3.3rem;
         font-weight: 900;
         color: white;
+        padding: 0;
 }
 
 #five p{
         color: rgba(255, 255, 255, 0.542);
         font-size: 1rem;
+        padding-bottom: 15px;
 }
 
 #cercle{
@@ -194,12 +196,13 @@ nav > label > i{
         position: absolute;
         display: flex;
         align-items: center;
-        background-image: linear-gradient(to right, rgba(128, 128, 128, 0.778), rgba(128, 128, 128, 0.066));
+        background-color: rgb(48, 48, 48, 1);
+        border: 0.5px solid gray;
         text-align: center;
         width: 206px;
         height: 96px;
         border-radius: 10px;
-        bottom: 220px;
+        bottom: 100px;
         right: 250px;
 }
 
@@ -218,6 +221,7 @@ nav > label > i{
 .three p{
         color: rgba(255, 255, 255, 0.542);
         font-size: 1rem;
+        padding-bottom: 10px;
 }
 
 /* main section one start here */
@@ -278,62 +282,16 @@ nav > label > i{
         margin-top: 80px;
 }
 #run-div{
-        width: 366px;
-        height: 312px;
+        max-width: 366px;
+        max-height: 312px;
         border-radius: 15px;
         overflow: hidden;      
 }
 
-.run-image{
-        background-image: url(/images/run.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: right;
-        transform: scale(170%);
-        width: 100%;
+#run-div > img{
         height: 100%;
-}
-
-/* section three start here */
-/* .training{
-        margin-top: 80px;
-}
-
-#training{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-}
-
-.training-image1{
-        width: 285px;
-        height: 200px;
-}
-.training-image2{
-        width: 570px;
-        height: 200px;
-}
-.training-image3{
-        width: 285px;
-        height: 200px;
-}
-.training-image4{
-        width: 427.5px;
-        height: 200px;
-}
-.training-image5{
-        width: 285px;
-        height: 200px;
-}
-.training-image6{
-        width: 427.5px;
-        height: 200px;
-}
-
-#training > div > img {
         width: 100%;
-        height: 100%;
-} */
-
+}
 
 .bmi-c{
         margin: 80px auto 0;

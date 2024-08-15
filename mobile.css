@@ -200,12 +200,17 @@ nav > ul > li > a:hover, #nav-color > a{
         margin: 50px 20px;
 }
 
+footer{
+        max-width: 570px;
+        background-color: rgb(34, 34, 34);
+        margin-top: 80px;
+}
+
 .footer-part{
-        width: 1140px;
+        max-width: 570px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        padding: 20px;
 }
 
 .footer-part{
@@ -214,7 +219,7 @@ nav > ul > li > a:hover, #nav-color > a{
 
 .footer-link{
         flex-direction: column;
-        max-width: 570px;
+        max-width: 380px;
 }
 
 .footer-1st-link > h3{
